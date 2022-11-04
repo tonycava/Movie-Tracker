@@ -1,0 +1,24 @@
+.containerAll {
+  position: relative;
+  margin: 4%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-gap: 20px;
+}
+.containerAll > span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  color: white;
+  grid-column: 2/4;
+}
+
+@media only screen and (max-width: 620px) {
+  .containerCard {
+    grid-template-columns: repeat(3, 31%);
+  }
+}
+
+/*# sourceMappingURL=About.module.css.map */

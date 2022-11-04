@@ -1,0 +1,101 @@
+body {
+  background-color: #768286;
+}
+
+.cardContent {
+  margin: 1%;
+  border-radius: 25px;
+  background-color: #4a474d;
+  padding-bottom: 10px;
+}
+.cardContent .containerImage {
+  width: 100%;
+  height: 300px;
+}
+.cardContent .containerImage .imageMovie {
+  margin: 11.5%;
+  border-radius: 25px;
+  width: 79%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardContent .movieTitle {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.cardContent .containerMid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 6rem;
+}
+.cardContent .containerMid .spanRate {
+  margin-top: 5px;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.cardContent .containerMid .releaseDate {
+  margin-top: 5px;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.cardContent .genre {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.cardContent .containerGenre {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0;
+}
+.cardContent .containerShowOverview {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.cardContent .containerShowOverview .buttonShowOverview {
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.cardContent .containerShowOverview .buttonShowOverview:hover {
+  transform: scale(1.1);
+}
+.cardContent .containerGenre > * {
+  margin-top: 5px;
+  display: flex;
+  font-size: 0.75rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.cardContent .parentButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Card.module.css.map */

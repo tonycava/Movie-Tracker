@@ -1,0 +1,21 @@
+.containerApp {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerApp .containerCard {
+  position: relative;
+  margin: 4%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-gap: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+  .containerCard {
+    grid-template-columns: repeat(3, 31%);
+  }
+}
+
+/*# sourceMappingURL=Home.module.css.map */

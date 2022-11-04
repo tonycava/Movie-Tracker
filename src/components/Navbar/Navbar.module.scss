@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+.containerNav {
+  .navContainer {
+    background-color: #455559;
+    border-radius: 25px;
+    height: 100px;
+    position: relative;
+    display: flex;
+
+    .slogan {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      font-weight: 700;
+      font-size: 3rem;
+      font-family: 'Fredoka', sans-serif;
+    }
+
+    .logoContainer {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+      margin-left: 2%;
+      width: 11%;
+
+      .logo {
+        width: 100px;
+        position: relative;
+      }
+    }
+
+    .itemContainer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: auto;
+      margin-right: 4%;
+
+      .itemList {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 5rem;
+
+        .navItem {
+          list-style: none;
+
+          .navBtn {
+            display: flex;
+            justify-content: flex-start;
+
+            .navIcon {
+              position: relative;
+              height: 50px;
+              width: 50px;
+              margin-right: 20px;
+            }
+
+            .navLink {
+              text-decoration: none;
+              position: relative;
+              color: white;
+              font-weight: 700;
+              font-size: 1.25rem;
+              font-family: 'Fredoka', sans-serif;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+
+      .navLogoContainer {
+        .navLogo {
+          height: 50px;
+          width: 50px;
+          margin-left: 50%;
+        }
+      }
+    }
+  }
+}
+
+@keyframes anim {
+  to {
+    width: 100%;
+  }
+}

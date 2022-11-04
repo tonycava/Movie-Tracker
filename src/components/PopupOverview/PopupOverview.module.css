@@ -1,0 +1,70 @@
+.containerAll {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+.containerAll .containerPopup {
+  width: 50%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: black;
+  border-radius: 25px;
+  top: 10vh;
+}
+.containerAll .containerPopup .overviewTittle {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.containerAll .containerPopup .overviewText {
+  margin-top: 5px;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.containerAll .containerPopup .containerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px auto;
+  gap: 18rem;
+}
+.containerAll .containerPopup .containerButton .overviewButton {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.containerAll .containerPopup .containerButton .cross {
+  cursor: pointer;
+  color: white;
+  transition: all 250ms ease-in;
+}
+.containerAll .containerPopup .containerButton .cross:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=PopupOverview.module.css.map */
